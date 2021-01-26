@@ -13,8 +13,7 @@ Arrow function:
 */
 
 
-var MyArrow = (x,y,...u) => {
-    var z = x + y;
-    return z;
+var MyArrow = (...u) => {
+    return u;
 }
 console.log(MyArrow(10,23,56,3,4,5,6,7,8,9,2));
